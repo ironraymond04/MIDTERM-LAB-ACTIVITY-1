@@ -1,0 +1,33 @@
+body{
+    background-color:steelblue;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h1, h2, label{
+    font-family: Helvetica;
+    color:rgb(241, 235, 184);
+}
+
+form {
+    background-color: rgb(97, 97, 97);
+    padding: 45px;
+    max-width: 438px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+form button {
+    background-color: #008CBA;
+    font-family: Helvetica;
+    color: white;
+    border-radius: 8px;
+  }
+
+input[type=text], input[type=number], input[type=email] {
+  width: 50%;
+  padding: 5px;
+  border-radius: 8px;
+  background: #f1f1f1;
+}
+
